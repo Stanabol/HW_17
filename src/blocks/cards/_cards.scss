@@ -1,0 +1,328 @@
+.cards {
+
+
+}
+.cards {
+    
+    
+    &__joker {
+        position: relative;
+        z-index: 1;
+        backface-visibility: hidden;
+    }
+
+    &__joker:hover {
+        transform: rotateY(180deg);
+        transition: 1s;
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
+        z-index: 2;
+    }
+
+    &__back {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+        z-index: 1;
+        backface-visibility: hidden;
+        
+    }
+    &__back:hover {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+        transform: rotateY(-180deg);
+        transition: 1s;
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
+        z-index: 2;
+    }
+    &__back1 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back2 {
+        position: absolute;
+        left: 7px;
+        top: 7px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back3 {
+        position: absolute;
+        left: 9px;
+        top: 9px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back4 {
+        position: absolute;
+        left: 11px;
+        top: 11px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back5 {
+        position: absolute;
+        left: 13px;
+        top: 13px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back6 {
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back7 {
+        position: absolute;
+        left: 17px;
+        top: 17px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back8 {
+        position: absolute;
+        left: 19px;
+        top: 19px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back9 {
+        position: absolute;
+        left: 21px;
+        top: 21px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back10 {
+        position: absolute;
+        left: 23px;
+        top: 23px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back11{
+        position: absolute;
+        left: 25px;
+        top: 25px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back12{
+        position: absolute;
+        left: 27px;
+        top: 27px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back13 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back14 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back15 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back16 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back17 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back18 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    
+    &__back19 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back20 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back21 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back22 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back23 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back24 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back25 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back26 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back27 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back28 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back29 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back30 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back31 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back32 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back33 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+    &__back34 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+
+    &__back35 {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 180px;
+        height: 262px;
+        border-radius: 5% 5% 5% 5%;
+    }
+}
